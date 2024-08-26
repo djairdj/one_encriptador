@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador - One</title>
+  <link rel="favicon" href="./assets/LogoAlura.svg">
+
+  <link rel="stylesheet" href="./style/style.css?v2.2">
+
+  <!-- Icons -->
+  <link href="https://cdn.metroui.org.ua/current/icons.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+  <script src="./js/index.js" defer></script>
+</head>
+<body>
+<nav class="container">
+  <div class="logo">
+    <img src="./assets/LogoAlura.svg" alt="Logo Alura">
+  </div>
+</nav>
+<main class="container flex">
+
+  <section class="content">
+    <div class="area">
+      <button id="btn-toPaste" class="paste">
+        <span class="mif-paste"></span>
+      </button>
+      <textarea rows="4" cols="50" id="phrase" placeholder="Digite seu texto"></textarea>
+    </div>
+    <div class="content-footer">
+      <div class="warnings"></div>
+      <label for="phrase" class="lettersAlert">
+        <div class="icon-info">
+          <img src="./assets/icons/info.svg" alt="Info icon">
+        </div>
+        <div id="textLettersAlert">
+          Apenas letras minúsculas não acentuadas.
+        </div>
+      </label>
+      <div class="buttons">
+        <button id="btn-crypt">Criptografar</button>
+        <button id="btn-decrypt">Descriptografar</button>
+      </div>
+    </div>
+
+  </section>
+  <section class="answers">
+    <div class="answer">
+      <div class="resultText"></div>
+      <button id="btn-copy">
+        <span class="mif-copy">Copiar</span>
+
+      </button>
+
+    </div>
+    <div class="previousAnswers">
+      <img src="assets/meninoOlhandoDiamante.svg" alt="Menino olhando um diamante com uma lupa">
+      <h5 id="textWithoutMessage">
+        Nenhuma mensagem encontrada
+      </h5>
+      <span id="textWithoutMessageSpan">Digite um texto que você deseja criptografar ou descriptografar.</span>
+    </div>
+  </section>
+</main>
+<footer class="container">
+  <p id="footer-text">
+    Adaptado por <a href="https://github.com/djairdj">Djair Alves</a>
+  </p>
+</footer>
+</body>
+</html>
