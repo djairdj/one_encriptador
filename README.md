@@ -4,8 +4,6 @@ Este projeto, desenvolvido como parte do programa Oracle ONE em parceria com a A
 aplicativo web simples e intuitivo para codificar e decodificar mensagens utilizando JavaScript puro. A interface do
 usuário foi construída com HTML e CSS.
 
-[Repositório aqui](https://github.com/djairdj/one_encriptador)
-
 ---
 
 ### **Funcionalidades:**
